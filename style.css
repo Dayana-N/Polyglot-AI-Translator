@@ -1,1 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;600&family=Special+Elite&family=Vast+Shadow&display=swap');
+/* Root colors */
+:root {
+  --blue-background: rgba(49, 92, 142, 0.8);
+  --dark-blue-background: rgba(63, 84, 108, 0.8);
+  --page-background: rgb(231, 236, 242);
+  --white: #fff;
+  --violet: #7284c9;
+  --light-gray: #c9c9c9;
+  --blue-btn: rgba(87, 135, 189, 0.8);
+  --blue-btn-hover: rgba(138, 176, 219, 0.8);
+  --dark-blue-text: #10284e;
+  --green: #2fbd7d;
+  --light-green: #65d4a2;
+}
 
+html {
+  height: 100%;
+}
+
+body {
+  background-color: rgb(231, 236, 242);
+  font-family: 'Roboto Slab', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+/* Navbar */
+.header-nav {
+  background-color: var(--blue-background);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: var(--white);
+  font-weight: 600;
+}
+
+.navbar-dark .navbar-brand {
+  color: var(--white);
+}
+
+.logo {
+  height: 47px;
+}
+
+a.active {
+  /* background-color: rgba(154, 167, 183, 0.8); */
+  border-bottom: 1px solid var(--white);
+  font-weight: 800;
+}
