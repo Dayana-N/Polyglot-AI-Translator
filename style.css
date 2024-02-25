@@ -2,7 +2,7 @@
 /* Root colors */
 :root {
   --blue-background: rgba(49, 92, 142, 0.8);
-  --dark-blue-background: rgba(63, 84, 108, 0.8);
+  --dark-blue-background: rgba(59, 96, 138, 0.8);
   --page-background: rgb(231, 236, 242);
   --white: #fff;
   --violet: #7284c9;
@@ -44,7 +44,26 @@ body {
 }
 
 a.active {
-  /* background-color: rgba(154, 167, 183, 0.8); */
   border-bottom: 1px solid var(--white);
   font-weight: 800;
+}
+
+/* Footer */
+#footer {
+  background-color: var(--blue-background);
+  color: var(--white);
+  margin-top: auto;
+}
+
+#social-links a {
+  text-decoration: none;
+}
+
+#social-links a i {
+  color: var(--white);
+  font-size: 25px;
+}
+
+.copyright {
+  background-color: var(--dark-blue-background);
 }
