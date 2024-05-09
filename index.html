@@ -45,7 +45,7 @@
 
                 <div class="row justify-content-center">
                     <div class="col-sm-12 col-md-8 col-lg-6 mx-auto text-center my-5 p-4 translator-container">
-                        <div class="content">
+                        <div id="content" class="content">
                             <h3 class="text-white">Please Enter Text Below</h3>
                             <div class="row justify-content-center">
                                 <div class="col-12">
@@ -78,6 +78,25 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div id="translation" class="d-none">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h3 class="text-white">Translation</h3>
+                                    <div class="py-2">
+                                        <textarea name="original-text" id="original-text" cols="30" rows="6"
+                                            readonly>fs fsdf sdfv szdfv d</textarea>
+                                    </div>
+                                    <div class="py-2">
+                                        <textarea name="translation" id="translated-text" cols="30" rows="6"
+                                            readonly>translation is translation </textarea>
+
+                                    </div>
+                                    <button class="btn btn-success my-2" id="translate">Start Over</button>
+                                </div>
+                            </div>
+                        </div>
+
 
                     </div>
 
@@ -148,7 +167,7 @@
         crossorigin="anonymous"></script>
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/f6549ef1f7.js" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
 </body>
 
 </html>
